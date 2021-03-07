@@ -489,6 +489,7 @@ color: #0faf97;
   border-radius: 59px;
   top: 40%;
   left: 40%;
+  transition: .8s;
  }
 
  .play:hover{
@@ -514,6 +515,11 @@ color: #0faf97;
  .count i{
    font-size: 50px;
    color:#0faf97;
+   transition: .6s;
+ }
+
+ .count i:hover{
+   transform: scale(1.4);
  }
 
  .count span{
@@ -581,6 +587,13 @@ color: #0faf97;
    line-height: 25px;
    border-bottom: 1px solid #aaaaaa;
    box-shadow: 0px 0px 1px 1px #aaaaaa;
+   transition: .8s;
+ }
+
+ .quality p:hover{
+  transform: scale(.9);
+  box-shadow:none;
+  border: none;
  }
 
  .honest{
