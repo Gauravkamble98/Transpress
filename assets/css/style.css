@@ -347,6 +347,10 @@ label #sign-two{
   width: 23%;
 }
 
+.transport-via:hover{
+transform: scale(1.2);
+}
+
 .transport-via i{
 font-size: 100px;
 margin-top: 15px;
@@ -386,6 +390,11 @@ color: #0faf97;
   display: flex;
   justify-content: space-between;
   box-shadow: 0px 0px 1px .8px #aaaaaa;
+}
+
+.available-resource:hover{
+  transform: scale(.9);
+  cursor: pointer;
 }
 
 .available-resource i{
@@ -478,6 +487,7 @@ color: #0faf97;
  .play:hover{
    color: #fff;
    border: 1px solid #fff;
+   transform: scale(1.4);
  }
  /* about section done  */
 
@@ -532,11 +542,19 @@ color: #0faf97;
    border: 1px solid #aaaaaa;
  }
 
+ .quality:hover{
+  
+ }
+
  .we-creative{
   border-bottom: 1px solid #aaaaaa;
     padding: 22px 0 22px 0;
     font-weight: 600;
     font-size: 18px;
+ }
+
+ .we-creative:hover{
+  transform: scale(1.1);
  }
 
  .quality .arrow-right{
@@ -568,6 +586,10 @@ color: #0faf97;
   box-shadow: 0px 0px 4px 1px #aaaaaa;
  }
 
+ .honest:hover{
+  transform: scale(1.1);
+ }
+
  .fa-plane {
   padding:0 15px 0;
   font-size: 19px;
@@ -581,6 +603,10 @@ color: #0faf97;
   box-shadow: 0px 0px 4px 1px #aaaaaa;
  }
 
+ .quality-commitment:hover{
+  transform: scale(1.1);
+ }
+
  .fa-truck{
   padding:0 15px 0;
   font-size: 19px;
@@ -592,6 +618,10 @@ color: #0faf97;
   font-weight: 600;
   font-size: 18px;
   box-shadow: 0px 0px 4px 1px #aaaaaa;
+ }
+
+ .improvement:hover{
+  transform: scale(1.1);
  }
 
  .fa-globe{
@@ -622,6 +652,10 @@ color: #0faf97;
  .news h4{
    margin: 20px 24px;
    font-weight: 600;
+ }
+
+ .news:hover{
+     transform: scale(1.1);
  }
 
  .news span{
@@ -729,6 +763,10 @@ color: #0faf97;
 
 .member { box-shadow: 0px 0px 3px 1px #aaaaaa;}
 
+.member:hover{
+  transform: scale(1.1);
+}
+
 .member h5{
 text-align: center;
 margin-top: 18px;
@@ -773,6 +811,11 @@ font-weight: 600;
   background-color: #fff;
   text-align: center;
   padding-top: 38px;
+}
+
+.client-info:hover{
+  transform: scale(1.2);
+  background-color: #333333;
 }
 
 .client-info i{
