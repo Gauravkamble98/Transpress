@@ -325,12 +325,14 @@ label #sign-two{
   font-weight: 600;
   border-radius: 8px;
   margin-right: 5px;
+  transition: .8s;
 }
 
 .read-more a:hover{
   color: #aaaaaa;
   background-color: #fff;
   border: 1px solid #0faf97;
+  transition: .8s;
 }
 
 .transport{
@@ -345,10 +347,13 @@ label #sign-two{
   background-color: #fff;
   color: #000;
   width: 23%;
+  transition: .7s;
 }
 
 .transport-via:hover{
 transform: scale(1.2);
+box-shadow: 2px 2px 2px #000;
+z-index: 2;
 }
 
 .transport-via i{
@@ -390,11 +395,13 @@ color: #0faf97;
   display: flex;
   justify-content: space-between;
   box-shadow: 0px 0px 1px .8px #aaaaaa;
+  transition: .5s;
 }
 
 .available-resource:hover{
   transform: scale(.9);
   cursor: pointer;
+  box-shadow:.5px .5px .5px 1px #000;
 }
 
 .available-resource i{
@@ -542,15 +549,13 @@ color: #0faf97;
    border: 1px solid #aaaaaa;
  }
 
- .quality:hover{
-  
- }
-
  .we-creative{
   border-bottom: 1px solid #aaaaaa;
     padding: 22px 0 22px 0;
     font-weight: 600;
     font-size: 18px;
+    box-shadow: 0px 0px 1px 1px #aaaaaa;
+    transition: .6s;
  }
 
  .we-creative:hover{
@@ -560,7 +565,7 @@ color: #0faf97;
  .quality .arrow-right{
    padding: 22px 22px ;
    background-color: #eeeeee;
-   box-shadow: 0px 0px 4px 1px #aaaaaa;
+   box-shadow: 0px 0px 1px 1px #aaaaaa;
  }
 
  .quality .arrow-right:hover { color: #0faf97;}
@@ -575,7 +580,7 @@ color: #0faf97;
    font-size: 16px;
    line-height: 25px;
    border-bottom: 1px solid #aaaaaa;
-   box-shadow: 0px 0px 4px 1px #aaaaaa;
+   box-shadow: 0px 0px 1px 1px #aaaaaa;
  }
 
  .honest{
@@ -583,7 +588,8 @@ color: #0faf97;
   padding: 22px 0 22px 0;
   font-weight: 600;
   font-size: 18px;
-  box-shadow: 0px 0px 4px 1px #aaaaaa;
+  box-shadow: 0px 0px 1px 1px #aaaaaa;
+  transition: .6s;
  }
 
  .honest:hover{
@@ -600,7 +606,8 @@ color: #0faf97;
   padding: 22px 0 22px 0;
   font-weight: 600;
   font-size: 18px;
-  box-shadow: 0px 0px 4px 1px #aaaaaa;
+  box-shadow: 0px 0px 1px 1px #aaaaaa;
+  transition: .6s;
  }
 
  .quality-commitment:hover{
@@ -617,11 +624,13 @@ color: #0faf97;
   padding: 22px 0 22px 0;
   font-weight: 600;
   font-size: 18px;
-  box-shadow: 0px 0px 4px 1px #aaaaaa;
+  box-shadow: 0px 0px 1px 1px #aaaaaa;
+  transition: .6s;
  }
 
  .improvement:hover{
   transform: scale(1.1);
+  z-index: 2;
  }
 
  .fa-globe{
@@ -646,7 +655,7 @@ color: #0faf97;
 
  .news{
    width: 48%;
-   box-shadow: 0px 0px 4px 1px #aaaaaa;
+   box-shadow: 0px 0px 1px 1px #aaaaaa;
  }
 
  .news h4{
@@ -656,6 +665,7 @@ color: #0faf97;
 
  .news:hover{
      transform: scale(1.1);
+     transition: .6s;
  }
 
  .news span{
@@ -761,10 +771,14 @@ color: #0faf97;
   margin-top: 42px;
 }
 
-.member { box-shadow: 0px 0px 3px 1px #aaaaaa;}
+.member {
+   box-shadow: 0px 0px 3px 1px #aaaaaa;
+  transition: .8s;
+}
 
 .member:hover{
-  transform: scale(1.1);
+  transform: scale(1.3);
+  z-index: 2;
 }
 
 .member h5{
@@ -811,10 +825,12 @@ font-weight: 600;
   background-color: #fff;
   text-align: center;
   padding-top: 38px;
+  transition: .8s;
 }
 
 .client-info:hover{
   transform: scale(1.2);
+  z-index: 2;
   background-color: #333333;
 }
 
@@ -858,6 +874,11 @@ font-weight: 600;
 .transpress .enter-mail{
   border: 1px solid #aaaaaa;
   margin: 35px 0 0 0;
+  transition: 1s;
+}
+
+.transpress .enter-mail:hover{
+  transform: scale(1.2);
 }
 
 .enter-mail i {
